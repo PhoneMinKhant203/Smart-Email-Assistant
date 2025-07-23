@@ -39,12 +39,11 @@ To get this project up and running on your local machine, follow these simple st
    * **Clone with Git:**
 
      ```
-     git clone [https://github.com/YOUR_USERNAME/smart-email-assistant.git](https://github.com/YOUR_USERNAME/smart-email-assistant.git)
+     git clone [https://github.com/PhoneMinKhant203/Smart-Email-Assistant.git)
      cd smart-email-assistant
      
      ```
 
-     (Replace `YOUR_USERNAME` with your GitHub username if you fork it, or just download the ZIP if you prefer).
 
    * **Download ZIP:** Download the project as a ZIP file and extract it to your desired location.
 
@@ -69,7 +68,7 @@ To get this project up and running on your local machine, follow these simple st
 * Locate the line:
 
   ```
-  const YOUR_DEEPSEEK_API_KEY = 'YOUR_DEEPSEEK_API_KEY';
+  const DEEPSEEK_API_KEY = 'YOUR_DEEPSEEK_API_KEY';
   
   ```
 
