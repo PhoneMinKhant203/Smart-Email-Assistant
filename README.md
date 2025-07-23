@@ -59,7 +59,7 @@ smart-email-assistant/
 
 └── js/
 
-    └── script.js
+  └── script.js
 
 4. **Obtain DeepSeek API Key:**
 
