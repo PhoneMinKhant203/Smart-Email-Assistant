@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Email Assistant</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Smart Email Assistant</h1>
+
+      <div class="mode-selection">
+        <button id="send-mode-btn" class="btn btn-primary selected">
+          New Email
+        </button>
+        <button id="reply-mode-btn" class="btn btn-secondary">
+          Reply Email
+        </button>
+      </div>
+
+      <div class="send-email-section" id="send-email-section">
+        <div class="input-section">
+          <label for="user-input">What would you like to say?</label>
+          <textarea
+            id="user-input"
+            placeholder="Type your rough thoughts here... it can be informal, have typos, or be direct. We'll polish it!"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="reply-email-section" id="reply-email-section" style="display: none;">
+        <div class="input-section">
+          <label for="received-email-input"
+            >Paste the email you received here:</label
+          >
+          <textarea
+            id="received-email-input"
+            placeholder="Paste the full content of the email you want to reply to."
+          ></textarea>
+        </div>
+        <div class="input-section">
+          <label for="reply-user-input"
+            >What is your reply or main points?</label
+          >
+          <textarea
+            id="reply-user-input"
+            placeholder="Type your rough reply or key points based on the received email."
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="tone-selection">
+        <label>Select Tone (you can choose multiple):</label>
+        <div class="tone-options">
+          <button class="tone-btn" data-tone="friendly">Friendly</button>
+          <button class="tone-btn" data-tone="professional">
+            Professional
+          </button>
+          <button class="tone-btn" data-tone="formal">Formal</button>
+          <button class="tone-btn" data-tone="persuasive">Persuasive</button>
+          <button class="tone-btn" data-tone="apologetic">Apologetic</button>
+        </div>
+
+        <div class="custom-tone">
+          <span>Or specify your own:</span>
+          <input
+            type="text"
+            id="custom-tone"
+            placeholder="e.g., enthusiastic, concerned, etc."
+          />
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <button id="generate-btn" class="btn btn-primary">
+          Generate Email
+        </button>
+        <button id="clear-btn" class="btn btn-secondary">Clear</button>
+      </div>
+
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>Crafting your perfect email...</p>
+      </div>
+
+      <div class="error-message" id="error-message">
+        Oops! Something went wrong. Please try again.
+      </div>
+
+      <div class="output-section" id="output-section">
+        <div class="output-header">
+          <h2>Your Polished Email</h2>
+          <button id="copy-btn" class="btn btn-secondary">
+            Copy to Clipboard
+          </button>
+        </div>
+        <div class="output-content" id="output-content"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
