@@ -128,17 +128,3 @@ smart-email-assistant/
 6. **Copy Email:**
 
 * Click the **"Copy to Clipboard"** button to quickly copy the generated email text. The button text will briefly change to "Copied!" to confirm.
-
-## 🔮 Future Enhancements
-
-* **Direct Gmail Integration (Advanced):** Implement actual Gmail API integration to automatically open a compose window with the generated email or even send it directly (requires Chrome Extension development and OAuth setup).
-
-* **Subject Line Generation:** Add functionality to suggest or generate a subject line based on the email content.
-
-* **Draft Saving:** Allow users to save generated drafts locally or to a simple storage.
-
-* **More Tone Options:** Expand the list of predefined tones.
-
-* **Language Support:** Add options to generate emails in different languages.
-
-* **User Interface Improvements:** Enhance the visual design and user experience.
