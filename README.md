@@ -48,14 +48,20 @@ To get this project up and running on your local machine, follow these simple st
    * **Download ZIP:** Download the project as a ZIP file and extract it to your desired location.
 
 2. **Folder Structure:** Ensure your project directory has the following structure:
+
    smart-email-assistant/
-├── index.html
+
+   ├── index.html
+
 ├── css/
+
 │   └── style.css
+
 └── js/
+
 └── script.js
 
-3. **Obtain DeepSeek API Key:**
+4. **Obtain DeepSeek API Key:**
 
 * Go to the [DeepSeek API website](https://www.deepseek.com/) (or your chosen LLM provider).
 
