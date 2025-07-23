@@ -49,9 +49,9 @@ To get this project up and running on your local machine, follow these simple st
 
 2. **Folder Structure:** Ensure your project directory has the following structure:
 
-   smart-email-assistant/
+smart-email-assistant/
 
-   ├── index.html
+├── index.html
 
 ├── css/
 
@@ -59,7 +59,7 @@ To get this project up and running on your local machine, follow these simple st
 
 └── js/
 
-└── script.js
+    └── script.js
 
 4. **Obtain DeepSeek API Key:**
 
